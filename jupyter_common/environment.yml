@@ -1,0 +1,8 @@
+name: jupyter_common
+dependencies:
+  # Step: Jupyter Common
+  - python
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+  - tqdm
