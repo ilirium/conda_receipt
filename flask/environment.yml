@@ -1,0 +1,17 @@
+name: jupyter_common
+dependencies:
+  # Step: Common
+  - python
+  - tqdm
+
+  # Step: Flask
+  - Flask
+  - Jinja2
+  - Werkzeug
+
+  # Step: Additional Packages for Flask
+  - flask-wtf
+  - flask-bootstrap
+
+  # Step: Mongo
+  - pymongo

@@ -1,0 +1,17 @@
+name: jupyter_common
+dependencies:
+  # Step: Common
+  - python
+  - tqdm
+
+  # Step: DB
+  - pymongo
+  - sqlalchemy
+  - redis
+
+  # Step: Queue
+  - rq
+
+  # Step: API
+  - Flask-API
+  - fastapi
