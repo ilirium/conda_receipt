@@ -1,4 +1,4 @@
-name: jupyter_science
+name: geo_structured
 dependencies:
   # Step: Jupyter Common
   - python

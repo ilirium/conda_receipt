@@ -1,4 +1,4 @@
-name: jupyter_common
+name: etc
 dependencies:
   # Step: Common
   - python

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/conda_receipt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_structured/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_structured/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_tiles/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_tiles/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584961680808</updated>
-      <workItem from="1584961684817" duration="4102000" />
+      <workItem from="1584961684817" duration="4271000" />
     </task>
     <servers />
   </component>
