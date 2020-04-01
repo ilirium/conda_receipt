@@ -2,6 +2,9 @@ name: etc
 dependencies:
   # Step: Common
   - python
+  - pip
+  - setuptools
+  - wheel
   - tqdm
 
   # Step: DB
