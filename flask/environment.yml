@@ -2,7 +2,14 @@ name: flask
 dependencies:
   # Step: Common
   - python
+  - pip
+  - setuptools
+  - wheel
   - tqdm
+
+  # Step: Web Common
+  - urllib3
+  - requests
 
   # Step: Flask
   - Flask
