@@ -1,0 +1,31 @@
+name: celery
+dependencies:
+  # Step: Jupyter Common
+  - python
+  - pip
+  - setuptools
+  - wheel
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+  - tqdm
+
+  # Step: Web Common
+  - urllib3
+  - requests
+
+  # Step: DB and Queues
+  - amqp
+  - redis
+  - pymongo
+
+  # Step: Files
+  - geojson
+  - pillow
+  - tifffile
+
+  # Step: Celery
+  - billiard
+  - celery
+  - flower
+  - gevent
