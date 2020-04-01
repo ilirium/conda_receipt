@@ -5,6 +5,9 @@ channels:
 dependencies:
   # Step: Jupyter Common
   - python
+  - pip
+  - setuptools
+  - wheel
   - jupyter
   - jupyter_contrib_nbextensions
   - nbdime

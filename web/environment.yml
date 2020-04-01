@@ -2,9 +2,12 @@ name: web
 dependencies:
   # Step: Common
   - python
+  - pip
+  - setuptools
+  - wheel
   - tqdm
 
-  # Step: Web
+  # Step: Web Common
   - urllib3
   - requests
 
