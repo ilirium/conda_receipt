@@ -45,8 +45,9 @@ dependencies:
   # Step: Files and Images
   - h5py # HDF5
   - pillow # PNG, JPEG and image operations
-  - tifffile # TIFF
-  - imagecodecs # for tifffile
+  - pip:
+      - tifffile # TIFF
+      - imagecodecs # for tifffile
 
   # Step: Geo Coords Transform
   - mercantile
