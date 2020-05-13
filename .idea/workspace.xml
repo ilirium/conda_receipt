@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/environment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geo_tiles/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_tiles/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter_common/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_common/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter_science/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_science/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +13,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="475a3978-f471-4324-a88f-123219aa3205" />
   <component name="ProjectId" id="1ZWjKXN5KkrGc4M7opv9hbdqwRO" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/celery" />
@@ -59,12 +54,16 @@
       <option name="presentableId" value="Default" />
       <updated>1584961680808</updated>
       <workItem from="1584961684817" duration="4950000" />
-      <workItem from="1585583692865" duration="1579000" />
+      <workItem from="1585583692865" duration="2700000" />
+      <workItem from="1585741504428" duration="25000" />
+      <workItem from="1586352189880" duration="608000" />
+      <workItem from="1586440161720" duration="290000" />
+      <workItem from="1588335180999" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="175" key="SettingsEditor" timestamp="1585728705660">
