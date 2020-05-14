@@ -1,4 +1,7 @@
 name: pysteps
+channels:
+  - conda-forge
+  - nodefaults
 dependencies:
   # Step: Jupyter Common
   - python
