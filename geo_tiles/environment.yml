@@ -1,4 +1,6 @@
 name: geo_tiles
+channels:
+  - conda-forge
 dependencies:
   # Step: Jupyter Common
   - python
