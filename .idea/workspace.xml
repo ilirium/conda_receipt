@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/conda_receipt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/conda_receipt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_structured/environment.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/celery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/geo_structured" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,13 +37,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geo_structured" />
       <recent name="$PROJECT_DIR$/celery" />
       <recent name="$PROJECT_DIR$/etc" />
       <recent name="$PROJECT_DIR$/geo_tiles" />
       <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/flask_web" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,11 +63,29 @@
       <workItem from="1588335180999" duration="10000" />
       <workItem from="1595424604380" duration="470000" />
       <workItem from="1595586421844" duration="189000" />
+      <workItem from="1602075350607" duration="746000" />
+      <workItem from="1603191952203" duration="883000" />
+      <workItem from="1603201836367" duration="228000" />
+      <workItem from="1607337835218" duration="706000" />
+      <workItem from="1607409494008" duration="182000" />
+      <workItem from="1609938959489" duration="1557000" />
+      <workItem from="1610032836247" duration="2117000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="175" key="SettingsEditor" timestamp="1585728705660">

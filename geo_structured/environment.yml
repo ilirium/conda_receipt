@@ -1,7 +1,7 @@
 name: geo_structured
 dependencies:
   # Step: Jupyter Common
-  - python
+  - python=3.8
   - pip
   - setuptools
   - wheel
@@ -12,8 +12,6 @@ dependencies:
 
   # Step: Science
   - numpy
-  - pip:
-      - git+https://github.com/numpy/numpy-stubs#egg=numpy-stubs
   - matplotlib
   - seaborn
   - SciPy
