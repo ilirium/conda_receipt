@@ -1,7 +1,7 @@
 name: flask
 dependencies:
   # Step: Common
-  - python
+  - python=3.8
   - pip
   - setuptools
   - wheel
