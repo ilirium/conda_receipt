@@ -1,0 +1,51 @@
+name: geo_structured2
+channels:
+  - anaconda
+dependencies:
+  # Step: Jupyter Common
+  - python=3.8
+  - pip
+  - setuptools
+  - wheel
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+  - tqdm
+
+  # Step: Science
+  - numpy
+  - matplotlib
+  - seaborn
+  - SciPy
+  # SciKits (short for SciPy Toolkits) are add-on packages for SciPy
+  # Description https://www.scipy.org/scikits.html
+  # List of available kits http://scikits.appspot.com/scikits
+  - scikit-learn
+
+  # Step: Pandas
+  # Recommended dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#recommended-dependencies
+  - pandas
+  - numexpr
+  - bottleneck
+  # Additional packages for Pandas
+#  - pip:
+#      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+  # Optional dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
+  - PyTables
+  - SciPy
+  - blosc
+  - fastparquet
+  - numba
+  - pyarrow
+  - pytables
+  - zlib
+
+  # Step: Geo Structured Data
+#  - geojson
+#  - geopandas
+#  - geoplot
+#  - geopy
+#  - mapclassify
+#  - shapely

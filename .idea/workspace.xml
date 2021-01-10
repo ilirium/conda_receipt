@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geo_structured/environment.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1607337835218" duration="706000" />
       <workItem from="1607409494008" duration="182000" />
       <workItem from="1609938959489" duration="1557000" />
-      <workItem from="1610032836247" duration="2117000" />
+      <workItem from="1610032836247" duration="4458000" />
     </task>
     <servers />
   </component>
