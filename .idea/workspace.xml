@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/geo_structured" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/geo_tiles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,10 +35,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geo_tiles" />
       <recent name="$PROJECT_DIR$/geo_structured" />
       <recent name="$PROJECT_DIR$/celery" />
       <recent name="$PROJECT_DIR$/etc" />
-      <recent name="$PROJECT_DIR$/geo_tiles" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
@@ -67,7 +67,12 @@
       <workItem from="1607337835218" duration="706000" />
       <workItem from="1607409494008" duration="182000" />
       <workItem from="1609938959489" duration="1557000" />
-      <workItem from="1610032836247" duration="4458000" />
+      <workItem from="1610032836247" duration="4533000" />
+      <workItem from="1614244378139" duration="1028000" />
+      <workItem from="1614519846817" duration="299000" />
+      <workItem from="1614520164373" duration="1036000" />
+      <workItem from="1614695013073" duration="669000" />
+      <workItem from="1614768187953" duration="931000" />
     </task>
     <servers />
   </component>
@@ -84,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="175" key="SettingsEditor" timestamp="1585728705660">
