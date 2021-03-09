@@ -50,6 +50,7 @@ dependencies:
   - pip:
       - tifffile # TIFF
       - imagecodecs # for tifffile
+  - opencv
 
   # Step: Geo Coords Transform
   - mercantile
