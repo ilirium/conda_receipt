@@ -4,7 +4,6 @@
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geo_tiles/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_tiles/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geo_tiles/environment2.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,9 @@
       <workItem from="1614695013073" duration="669000" />
       <workItem from="1614768187953" duration="931000" />
       <workItem from="1614867452475" duration="351000" />
-      <workItem from="1615291246225" duration="69000" />
+      <workItem from="1615291246225" duration="1573000" />
+      <workItem from="1615381733227" duration="538000" />
+      <workItem from="1616596314235" duration="21000" />
     </task>
     <servers />
   </component>
