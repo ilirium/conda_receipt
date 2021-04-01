@@ -45,13 +45,14 @@ dependencies:
   - zlib
 
   # Step: Files and Images
-  - h5py # HDF5
-  - pillow # PNG, JPEG and image operations
+  - opencv # cv2
+  - pillow # PIL, PNG, JPEG and image operations
+  - scikit-image # skimage
   - pip:
       - tifffile # TIFF
       - imagecodecs # for tifffile
-  - opencv
-  - gdal
+  - gdal # GDAL
+  - h5py # HDF5
 
   # Step: Geo Coords Transform
   - mercantile
