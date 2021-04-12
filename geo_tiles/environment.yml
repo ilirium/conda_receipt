@@ -52,6 +52,7 @@ dependencies:
       - tifffile # TIFF
       - imagecodecs # for tifffile
   - gdal # GDAL
+  - rasterio # Better API for GDAL
   - h5py # HDF5
 
   # Step: Geo Coords Transform

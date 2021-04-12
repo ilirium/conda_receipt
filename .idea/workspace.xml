@@ -14,6 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="475a3978-f471-4324-a88f-123219aa3205" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vn6iiqgm" />
+  </component>
   <component name="ProjectId" id="1ZWjKXN5KkrGc4M7opv9hbdqwRO" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -79,7 +82,10 @@
       <workItem from="1615381733227" duration="538000" />
       <workItem from="1616596314235" duration="72000" />
       <workItem from="1617105544888" duration="783000" />
-      <workItem from="1617288089458" duration="248000" />
+      <workItem from="1617288089458" duration="836000" />
+      <workItem from="1617298791040" duration="191000" />
+      <workItem from="1617603966955" duration="942000" />
+      <workItem from="1618230036804" duration="322000" />
     </task>
     <servers />
   </component>
