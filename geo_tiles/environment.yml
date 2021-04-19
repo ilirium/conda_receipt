@@ -57,3 +57,4 @@ dependencies:
 
   # Step: Geo Coords Transform
   - mercantile
+  - pyproj # Transform between coordinate systems (CRS) for GDAL
