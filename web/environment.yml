@@ -6,6 +6,7 @@ dependencies:
   - setuptools
   - wheel
   - tqdm
+  - pytest
 
   # Step: Web Common
   - urllib3

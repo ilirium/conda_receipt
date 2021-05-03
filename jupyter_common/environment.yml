@@ -9,3 +9,4 @@ dependencies:
   - jupyter_contrib_nbextensions
   - nbdime
   - tqdm
+  - pytest
