@@ -9,6 +9,7 @@ dependencies:
   - jupyter_contrib_nbextensions
   - nbdime
   - tqdm
+  - pytest
 
   # Step: Web Common
   - urllib3

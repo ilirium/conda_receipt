@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/celery/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_structured/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_structured/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geo_tiles/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_tiles/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter_common/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_common/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter_science/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_science/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pysteps/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pysteps/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +95,14 @@
       <workItem from="1617298791040" duration="191000" />
       <workItem from="1617603966955" duration="942000" />
       <workItem from="1618230036804" duration="547000" />
+      <workItem from="1618826637317" duration="725000" />
+      <workItem from="1619257186984" duration="576000" />
+      <workItem from="1619271645355" duration="728000" />
+      <workItem from="1619421098128" duration="502000" />
+      <workItem from="1619594835547" duration="1104000" />
+      <workItem from="1619715383962" duration="381000" />
+      <workItem from="1619716176559" duration="253000" />
+      <workItem from="1620052953911" duration="118000" />
     </task>
     <servers />
   </component>
@@ -102,11 +120,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="341" y="175" key="SettingsEditor" timestamp="1585728705660">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1585728705660" />
   </component>
 </project>
