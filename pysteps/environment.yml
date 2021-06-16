@@ -46,6 +46,9 @@ dependencies:
   - pytables
   - zlib
 
+  # Step: Weather and radars
+  - wradlib  # work with radar data
+
   # Step: PySTEPS
   - pysteps
   - dask
