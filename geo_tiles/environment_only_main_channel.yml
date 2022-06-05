@@ -1,6 +1,6 @@
 name: geo_tiles
 channels:
-  - conda-forge
+  - anaconda
 dependencies:
   # Step: Jupyter Common
   - python
@@ -8,8 +8,8 @@ dependencies:
   - setuptools
   - wheel
   - jupyter
-  - jupyter_contrib_nbextensions
-  - nbdime
+#  - jupyter_contrib_nbextensions
+#  - nbdime
   - tqdm
   - pytest
 
@@ -30,8 +30,8 @@ dependencies:
   - numexpr
   - bottleneck
   # Additional packages for Pandas
-  - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+#  - pip:
+#      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables
@@ -44,16 +44,16 @@ dependencies:
   - zlib
 
   # Step: Files and Images
-  - opencv # cv2
-  - pillow # PIL, PNG, JPEG and image operations
-  - scikit-image # skimage
-  - pip:
-      - tifffile # TIFF
-      - imagecodecs # for tifffile
-  - gdal # GDAL
-  - rasterio # Better API for GDAL
-  - h5py # HDF5
+#  - opencv # cv2
+#  - pillow # PIL, PNG, JPEG and image operations
+#  - scikit-image # skimage
+#  - pip:
+#      - tifffile # TIFF
+#      - imagecodecs # for tifffile
+#  - gdal # GDAL
+#  - rasterio # Better API for GDAL
+#  - h5py # HDF5
 
   # Step: Geo Coords Transform
-  - mercantile
-  - pyproj # Transform between coordinate systems (CRS) for GDAL
+#  - mercantile
+#  - pyproj # Transform between coordinate systems (CRS) for GDAL
