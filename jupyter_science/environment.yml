@@ -13,8 +13,6 @@ dependencies:
 
   # Step: Science
   - numpy
-  - pip:
-      - git+https://github.com/numpy/numpy-stubs#egg=numpy-stubs
   - matplotlib
   - seaborn
   - SciPy
