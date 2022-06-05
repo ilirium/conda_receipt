@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca737195-c7d9-4a7d-8ddd-6545077bbf8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geo_tiles/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/geo_tiles/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter_science/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_science/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pysteps/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pysteps/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch/environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1649080920695" duration="602000" />
       <workItem from="1649250021862" duration="173000" />
       <workItem from="1650382075348" duration="178000" />
-      <workItem from="1654435807055" duration="666000" />
+      <workItem from="1654435807055" duration="944000" />
     </task>
     <servers />
   </component>
