@@ -2,7 +2,7 @@
 
 It's dedicated to store Anaconda environment files for different tasks. 
 
-URL: https://github.com/ilirium/conda_receipt
+Repo: https://github.com/ilirium/conda_receipt
 
 Dependencies of environment files:
 * `jupyter_common`

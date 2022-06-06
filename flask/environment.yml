@@ -1,4 +1,7 @@
 name: flask
+channels:
+  - default
+  - conda-forge
 dependencies:
   # Step: Common
   - python=3.8
