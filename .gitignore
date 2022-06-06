@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# *** Project related
+# contains deployment configuration
+.idea/deployment.xml
+# contains ip addresses of servers in the deployment section
+.idea/webServers.xml
+# not useful
+.idea/workspace.xml

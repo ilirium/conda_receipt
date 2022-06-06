@@ -1,5 +1,6 @@
 name: geo_tiles
 channels:
+  - default
   - conda-forge
 dependencies:
   # Step: Jupyter Common
@@ -31,7 +32,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables

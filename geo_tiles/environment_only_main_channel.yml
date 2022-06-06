@@ -1,6 +1,6 @@
 name: geo_tiles
 channels:
-  - anaconda
+  - default
 dependencies:
   # Step: Jupyter Common
   - python

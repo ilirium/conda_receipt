@@ -1,4 +1,8 @@
-name: jupyter_science
+name: js
+#name: jupyter_science
+channels:
+  - default
+  - conda-forge
 dependencies:
   # Step: Jupyter Common
   - python
@@ -29,7 +33,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables
