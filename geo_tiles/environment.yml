@@ -14,6 +14,10 @@ dependencies:
   - tqdm
   - pytest
 
+  # Step: Networks
+  - requests
+  - urllib3
+
   # Step: Science
   - numpy
   - matplotlib

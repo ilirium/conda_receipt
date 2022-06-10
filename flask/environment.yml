@@ -4,16 +4,16 @@ channels:
   - conda-forge
 dependencies:
   # Step: Common
-  - python=3.8
+  - python
   - pip
   - setuptools
   - wheel
   - tqdm
   - pytest
 
-  # Step: Web Common
-  - urllib3
+  # Step: Network
   - requests
+  - urllib3
 
   # Step: Flask
   - Flask
