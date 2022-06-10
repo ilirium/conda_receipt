@@ -11,9 +11,9 @@ dependencies:
   - tqdm
   - pytest
 
-  # Step: Web Common
-  - urllib3
+  # Step: Networks
   - requests
+  - urllib3
 
   # Step: AsyncIO
   - aiohttp

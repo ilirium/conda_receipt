@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   # Step: Jupyter Common
-  - python=3.8
+  - python
   - pip
   - setuptools
   - wheel
@@ -13,6 +13,10 @@ dependencies:
   - nbdime
   - tqdm
   - pytest
+
+  # Step: Networks
+  - requests
+  - urllib3
 
   # Step: Science
   - numpy

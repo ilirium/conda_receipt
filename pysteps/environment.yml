@@ -14,6 +14,10 @@ dependencies:
   - tqdm
   - pytest
 
+  # Step: Networks
+  - requests
+  - urllib3
+
   # Step: Science
   - numpy
   - matplotlib
@@ -32,7 +36,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables
