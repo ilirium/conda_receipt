@@ -16,6 +16,8 @@ dependencies:
   - pytest
 
   # Step: Networks
+  - aiohttp
+  - aiohttp-retry
   - requests
   - urllib3
 

@@ -1,4 +1,4 @@
-name: geo_tiles
+name: gt
 channels:
   - defaults
   - conda-forge
