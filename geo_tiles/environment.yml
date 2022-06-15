@@ -16,7 +16,7 @@ dependencies:
 
   # Step: Networks
   - aiohttp
-  - aiohttp_retry
+  #- aiohttp-retry
   - requests
   - urllib3
 
