@@ -1,6 +1,6 @@
 name: celery
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common
