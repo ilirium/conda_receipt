@@ -1,6 +1,6 @@
 name: geo_tiles
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common
@@ -16,7 +16,7 @@ dependencies:
 
   # Step: Networks
   - aiohttp
-  #- aiohttp-retry
+  - aiohttp-retry
   - requests
   - urllib3
 

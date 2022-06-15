@@ -1,6 +1,6 @@
 name: flask
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Common

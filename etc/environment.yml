@@ -1,6 +1,6 @@
 name: etc
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Common

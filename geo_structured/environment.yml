@@ -1,6 +1,6 @@
 name: geo_structured
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common

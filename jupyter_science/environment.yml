@@ -1,7 +1,7 @@
 name: js
 #name: jupyter_science
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common

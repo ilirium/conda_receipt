@@ -1,6 +1,6 @@
 name: jupyter_common
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common

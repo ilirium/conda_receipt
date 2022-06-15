@@ -1,6 +1,6 @@
 name: web
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   # Step: Common

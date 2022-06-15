@@ -2,7 +2,7 @@ name: pytorch
 channels:
   - pytorch
   - conda-forge
-  - default
+  - defaults
 dependencies:
   # Step: Jupyter Common
   - python
