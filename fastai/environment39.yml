@@ -1,0 +1,56 @@
+name: fi9
+#name: jupyter_science
+channels:
+  - fastchan
+  - defaults
+  - conda-forge
+dependencies:
+  # Step: Jupyter Common
+  - python=3.9.*
+  - pip
+  - setuptools
+  - wheel
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+  - tqdm
+  - pytest
+
+  # Step: Networks
+  - aiohttp
+  - aiohttp-retry
+  - requests
+  - urllib3
+
+  # Step: Science
+#  - numpy
+#  - matplotlib
+#  - seaborn
+#  - SciPy
+  # SciKits (short for SciPy Toolkits) are add-on packages for SciPy
+  # Description https://www.scipy.org/scikits.html
+  # List of available kits http://scikits.appspot.com/scikits
+#  - scikit-learn
+
+  # Step: Pandas
+  # Recommended dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#recommended-dependencies
+#  - pandas
+  - numexpr
+  - bottleneck
+  # Additional packages for Pandas
+  - pip:
+      - datatile
+#  # Optional dependencies
+#  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
+  - PyTables
+  - SciPy
+  - blosc
+  - fastparquet
+  - numba
+  - pyarrow
+  - pytables
+  - zlib
+
+  # Step: Fastai
+  - fastai
