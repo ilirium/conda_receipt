@@ -50,13 +50,15 @@ dependencies:
   - pytables
   - zlib
 
-  # Step: Files and Images
+  # Step: Computer vision and images
   - opencv # cv2
-  - pillow # PIL, PNG, JPEG and image operations
   - scikit-image # skimage
+  - pillow # PIL, PNG, JPEG and image operations
   - pip:
       - tifffile # TIFF
       - imagecodecs # for tifffile
+
+  # Step: Files
   - gdal # GDAL
   - rasterio # Better API for GDAL
   - h5py # HDF5
