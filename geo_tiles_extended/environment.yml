@@ -54,10 +54,9 @@ dependencies:
   - opencv # cv2
   - scikit-image # skimage
   - pillow # PIL, PNG, JPEG and image operations
-  # commented for macOS Apple Silicon
-  #- pip:
-  #    - tifffile # TIFF
-  #    - imagecodecs # for tifffile
+  - pip:
+      - tifffile # TIFF
+      - imagecodecs # for tifffile
 
   # Step: Files
   - gdal # GDAL
@@ -67,3 +66,13 @@ dependencies:
   # Step: Geo Coords Transform
   - mercantile
   - pyproj # Transform between coordinate systems (CRS) for GDAL
+
+  # Step: Geopandas
+  - geopandas
+  - shapely
+  - fiona
+  - packaging
+  - pyogrio
+  - rtree
+  - mapclassify
+  - pygeos
