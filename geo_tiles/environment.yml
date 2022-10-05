@@ -1,4 +1,4 @@
-name: gte
+name: gt
 channels:
   - defaults
   - conda-forge

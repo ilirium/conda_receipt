@@ -1,4 +1,4 @@
-name: gt
+name: gte
 channels:
   - defaults
   - conda-forge
@@ -54,9 +54,10 @@ dependencies:
   - opencv # cv2
   - scikit-image # skimage
   - pillow # PIL, PNG, JPEG and image operations
-  - pip:
-      - tifffile # TIFF
-      - imagecodecs # for tifffile
+  # it is seems the packages are installed as dependencies
+  #- pip:
+  #    - tifffile # TIFF
+  #    - imagecodecs # for tifffile
 
   # Step: Files
   - gdal # GDAL
