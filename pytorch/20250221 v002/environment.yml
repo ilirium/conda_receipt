@@ -1,0 +1,55 @@
+name: pt
+channels:
+  - nodefaults
+  - conda-forge
+  - pytorch-nightly
+dependencies:
+  # Step: Python Main
+  - python
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Common
+  - tqdm
+
+  # Step: Science
+  - numpy
+
+  # Step: Images
+  - pillow
+
+  # Step: PyTorch
+  - pytorch-nightly::pytorch
+  - pytorch-nightly::torchvision
+
+  # Step: PyTorch: lightning
+  # https://lightning.ai/docs/pytorch/stable/starter/installation.html#optimized-for-ml-workflows-lightning-apps
+  - lightning
+
+  # Step: Pip
+  - pip:
+      # !!! ATTENTION !!!
+      # I faced that when this file has multiple PIP sections, only the last section is installed.
+      # Part: OpenCV
+      # Official packages https://pypi.org/project/opencv-python/
+      - opencv-python-headless
+      #- opencv-contrib-python-headless
+      # Part: ONNX
+      # https://onnxruntime.ai/getting-started (platforms)
+      # https://onnxruntime.ai/docs/install/
+      # ONNX opset support https://onnxruntime.ai/docs/reference/compatibility
+      # Install ONNX Runtime CPU
+      - onnxruntime
+      # Install ONNX Runtime GPU (DirectML)
+      #- onnxruntime-directml
+      # Install ONNX Runtime GPU (CUDA 12.x)
+      #- onnxruntime-gpu
+      # Install ONNX Runtime QNN
+      #- onnxruntime-qnn
+      # Install ONNX Runtime GPU (ROCm)
+      # Part: ONNX Script
+      # ONNX Script enables developers to naturally author ONNX functions and models using a subset of Python.
+      - onnxscript
+      # Part: ONNX Optimize
+      - onnxoptimizer

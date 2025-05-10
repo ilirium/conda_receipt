@@ -1,0 +1,55 @@
+name: pytorch-gpu-macos
+channels:
+  - defaults
+  - conda-forge
+  - pytorch-nightly
+dependencies:
+  # Step: Python Main
+  - python >= 3.11, < 3.12  # because py-opencv cannot be installed with 3.12.*
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Jupyter Common
+  - jupyter
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - nbdime
+  - tqdm
+  - pytest
+
+  # Step: Pandas
+  # Recommended dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#recommended-dependencies
+  - pandas
+  - numexpr
+  - bottleneck
+  # Additional packages for Pandas
+  - pip:
+      - datatile
+  # Optional dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
+  - PyTables
+  - SciPy
+  - blosc
+  - fastparquet
+  - numba
+  - pyarrow
+  - pytables
+  - zlib
+
+  # Step: Science
+  - matplotlib
+  - numpy
+  - seaborn
+  - scipy
+  - scikit-learn
+
+  # Step: Images
+  - pillow
+  - opencv
+  - py-opencv
+
+  # Step: PyTorch
+  - pytorch-nightly::pytorch
+  - pytorch-nightly::torchvision

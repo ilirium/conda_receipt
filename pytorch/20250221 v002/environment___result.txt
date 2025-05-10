@@ -1,0 +1,39 @@
+Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1725267563793/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1739515848642/work/certifi
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+coloredlogs==15.0.1
+filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1737517818712/work
+flatbuffers==25.2.10
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1738501244951/work
+gmpy2 @ file:///Users/runner/miniforge3/conda-bld/gmpy2_1733462592473/work
+humanfriendly==10.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1733211830134/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1734823942230/work
+lightning @ file:///home/conda/feedstock_root/build_artifacts/lightning_1734855532866/work
+lightning-utilities @ file:///home/conda/feedstock_root/build_artifacts/lightning-utilities_1738371959594/work
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1733219728782/work
+ml_dtypes==0.5.1
+mpmath @ file:///home/conda/feedstock_root/build_artifacts/mpmath_1733302684489/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_networkx_1731521053/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1739425635300/work/dist/numpy-2.2.3-cp312-cp312-macosx_11_0_arm64.whl#sha256=32d4d0a4c0f4687307e002392cd89c21b742427b27a4fad51c5d9c2f057d027f
+onnx==1.17.0
+onnxruntime==1.20.1
+onnxscript==0.2.0
+opencv-python-headless==4.11.0.86
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
+pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1735929775475/work
+protobuf==5.29.3
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+pytorch-lightning @ file:///home/conda/feedstock_root/build_artifacts/pytorch-lightning_1734855499035/work
+PyYAML @ file:///Users/runner/miniforge3/conda-bld/pyyaml_1737454693669/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+setuptools==75.8.0
+sympy @ file:///home/conda/feedstock_root/build_artifacts/sympy_1736248176451/work
+torch==2.6.0.dev20241112
+torchmetrics @ file:///home/conda/feedstock_root/build_artifacts/torchmetrics_1735195057326/work
+torchvision==0.20.0.dev20241118
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1735661334605/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1718653059220/work
+wheel==0.45.1
