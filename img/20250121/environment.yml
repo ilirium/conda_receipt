@@ -1,0 +1,25 @@
+name: img
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  # Step: Python Main
+  - python
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Common
+  - tqdm
+  - pytest
+
+  # Step: Science
+  - numpy
+  - matplotlib
+
+  # Step: Images
+  - pillow
+  - opencv
+
+  # Step: Deep learning
+  - scikit-image
