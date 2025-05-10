@@ -1,7 +1,9 @@
-name: pysteps
+name: fie
+#name: jupyter_science
 channels:
+  - pytorch
+  - defaults
   - conda-forge
-  - nodefaults
 dependencies:
   # Step: Jupyter Common
   - python
@@ -15,6 +17,8 @@ dependencies:
   - pytest
 
   # Step: Networks
+  - aiohttp
+  - aiohttp-retry
   - requests
   - urllib3
 
@@ -48,15 +52,21 @@ dependencies:
   - pytables
   - zlib
 
-  # Step: Weather and radars
-  - wradlib  # work with radar data
+  # Step: Computer vision and images
+  - opencv # cv2
+  - scikit-image # skimage
+  - pillow # PIL, PNG, JPEG and image operations
+  - pip:
+      - tifffile # TIFF
+      - imagecodecs # for tifffile
 
-  # Step: PySTEPS
-  - pysteps
-  - dask
-  - toolz
-  - pyfftw
-  - cartopy
-  - h5py
-  - pygrib
-  - pywavelets
+  # Step: Files
+  - gdal # GDAL
+  - rasterio # Better API for GDAL
+  - h5py # HDF5
+
+  # Step: Pytorch
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly

@@ -1,5 +1,6 @@
-name: geo_tiles
+name: gt
 channels:
+  - defaults
   - conda-forge
 dependencies:
   # Step: Jupyter Common
@@ -13,10 +14,14 @@ dependencies:
   - tqdm
   - pytest
 
+  # Step: Networks
+  - aiohttp
+  - aiohttp-retry
+  - requests
+  - urllib3
+
   # Step: Science
   - numpy
-  - pip:
-      - git+https://github.com/numpy/numpy-stubs#egg=numpy-stubs
   - matplotlib
   - seaborn
   - SciPy
@@ -33,7 +38,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables
@@ -45,13 +50,16 @@ dependencies:
   - pytables
   - zlib
 
-  # Step: Files and Images
+  # Step: Computer vision and images
   - opencv # cv2
-  - pillow # PIL, PNG, JPEG and image operations
   - scikit-image # skimage
-  - pip:
-      - tifffile # TIFF
-      - imagecodecs # for tifffile
+  - pillow # PIL, PNG, JPEG and image operations
+  # commented for macOS Apple Silicon
+  #- pip:
+  #    - tifffile # TIFF
+  #    - imagecodecs # for tifffile
+
+  # Step: Files
   - gdal # GDAL
   - rasterio # Better API for GDAL
   - h5py # HDF5

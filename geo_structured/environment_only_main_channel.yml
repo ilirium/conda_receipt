@@ -1,6 +1,6 @@
 name: geo_structured2
 channels:
-  - anaconda
+  - default
 dependencies:
   # Step: Jupyter Common
   - python=3.8

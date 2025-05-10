@@ -1,4 +1,7 @@
 name: etc
+channels:
+  - defaults
+  - conda-forge
 dependencies:
   # Step: Common
   - python

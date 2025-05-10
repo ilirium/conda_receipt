@@ -1,7 +1,8 @@
-name: pysteps
-channels:
-  - conda-forge
-  - nodefaults
+name: gte
+# for mambaforge
+#channels:
+#  - defaults
+#  - conda-forge
 dependencies:
   # Step: Jupyter Common
   - python
@@ -15,6 +16,8 @@ dependencies:
   - pytest
 
   # Step: Networks
+  - aiohttp
+  - aiohttp-retry
   - requests
   - urllib3
 
@@ -48,15 +51,30 @@ dependencies:
   - pytables
   - zlib
 
-  # Step: Weather and radars
-  - wradlib  # work with radar data
+  # Step: Computer vision and images
+  - opencv # cv2
+  - scikit-image # skimage
+  - pillow # PIL, PNG, JPEG and image operations
+  # it is seems the packages are installed as dependencies
+  #- pip:
+  #    - tifffile # TIFF
+  #    - imagecodecs # for tifffile
 
-  # Step: PySTEPS
-  - pysteps
-  - dask
-  - toolz
-  - pyfftw
-  - cartopy
-  - h5py
-  - pygrib
-  - pywavelets
+  # Step: Files
+  - gdal # GDAL
+  - rasterio # Better API for GDAL
+  - h5py # HDF5
+
+  # Step: Geo Coords Transform
+  - mercantile
+  - pyproj # Transform between coordinate systems (CRS) for GDAL
+
+  # Step: Geopandas
+  - geopandas
+  - shapely
+  - fiona
+  - packaging
+  - pyogrio
+  - rtree
+  - mapclassify
+  - pygeos

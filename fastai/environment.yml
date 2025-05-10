@@ -1,7 +1,9 @@
-name: pysteps
+name: fi
+#name: jupyter_science
 channels:
+  - fastchan
+  - defaults
   - conda-forge
-  - nodefaults
 dependencies:
   # Step: Jupyter Common
   - python
@@ -15,6 +17,8 @@ dependencies:
   - pytest
 
   # Step: Networks
+  - aiohttp
+  - aiohttp-retry
   - requests
   - urllib3
 
@@ -48,15 +52,5 @@ dependencies:
   - pytables
   - zlib
 
-  # Step: Weather and radars
-  - wradlib  # work with radar data
-
-  # Step: PySTEPS
-  - pysteps
-  - dask
-  - toolz
-  - pyfftw
-  - cartopy
-  - h5py
-  - pygrib
-  - pywavelets
+  # Step: Fastai
+  - fastai

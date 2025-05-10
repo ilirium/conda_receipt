@@ -1,4 +1,8 @@
-name: jupyter_science
+name: js
+#name: jupyter_science
+channels:
+  - defaults
+  - conda-forge
 dependencies:
   # Step: Jupyter Common
   - python
@@ -11,10 +15,14 @@ dependencies:
   - tqdm
   - pytest
 
+  # Step: Networks
+  - aiohttp
+  - aiohttp-retry
+  - requests
+  - urllib3
+
   # Step: Science
   - numpy
-  - pip:
-      - git+https://github.com/numpy/numpy-stubs#egg=numpy-stubs
   - matplotlib
   - seaborn
   - SciPy
@@ -31,7 +39,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables

@@ -2,6 +2,7 @@ name: pytorch
 channels:
   - pytorch
   - conda-forge
+  - defaults
 dependencies:
   # Step: Jupyter Common
   - python
@@ -14,10 +15,12 @@ dependencies:
   - tqdm
   - pytest
 
+  # Step: Networks
+  - requests
+  - urllib3
+
   # Step: Science
   - numpy
-  - pip:
-      - git+https://github.com/numpy/numpy-stubs#egg=numpy-stubs
   - matplotlib
   - seaborn
   - SciPy
@@ -34,7 +37,7 @@ dependencies:
   - bottleneck
   # Additional packages for Pandas
   - pip:
-      - git+https://github.com/mouradmourafiq/pandas-summary#pandas-summary
+      - datatile
   # Optional dependencies
   # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
   - PyTables

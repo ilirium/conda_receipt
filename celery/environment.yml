@@ -1,4 +1,7 @@
 name: celery
+channels:
+  - defaults
+  - conda-forge
 dependencies:
   # Step: Jupyter Common
   - python
@@ -11,9 +14,9 @@ dependencies:
   - tqdm
   - pytest
 
-  # Step: Web Common
-  - urllib3
+  # Step: Networks
   - requests
+  - urllib3
 
   # Step: DB and Queues
   - amqp
