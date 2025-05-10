@@ -1,0 +1,7 @@
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1725560574711/work
+lark @ file:///home/conda/feedstock_root/build_artifacts/lark_1734709323538/work
+llvmlite==0.40.1
+numba @ file:///Users/runner/miniforge3/conda-bld/numba_1687804828615/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1687808476770/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pyomp @ file:///Users/runner/miniconda3/conda-bld/pyomp_1745595626883/work

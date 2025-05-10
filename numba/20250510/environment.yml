@@ -1,0 +1,19 @@
+name: hpc
+channels:
+  - nodefaults
+  - conda-forge
+  #- pyomp
+dependencies:
+  # Step: Python Main
+  - python
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Common
+  - tqdm
+  - pytest
+
+  # Step: Numba
+  #- python-for-hpc
+  #- numba
