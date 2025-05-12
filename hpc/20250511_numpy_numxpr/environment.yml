@@ -1,0 +1,22 @@
+name: np
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  # Step: Python Main
+  - python
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Common
+  - tqdm
+  - pytest
+
+  # Step: Cython
+  - cython
+
+  # Step: Numpy
+  - numpy
+  - numexpr
+  - threadpoolctl
