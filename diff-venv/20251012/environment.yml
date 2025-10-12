@@ -1,0 +1,68 @@
+name: diff_venv
+channels:
+  - nodefaults
+  - conda-forge
+  - pytorch-nightly
+dependencies:
+  # Step: Python Main
+  - python
+  - pip
+  - setuptools
+  - wheel
+
+  # Step: Common
+  - tqdm
+  - pytest
+
+  # Step: Jupyter Common
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+
+  # Step: Science
+  - numpy<2
+  - matplotlib
+  - SciPy
+  # SciKits (short for SciPy Toolkits) are add-on packages for SciPy
+  # Description https://www.scipy.org/scikits.html
+  # List of available kits http://scikits.appspot.com/scikits
+  - scikit-learn
+
+  # Step: Images
+  - pillow
+  - scikit-image
+
+  # Step: Pandas
+  # Recommended dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#recommended-dependencies
+  - pandas
+  - numexpr
+  - bottleneck
+  # Additional packages for Pandas
+  - pip:
+      - datatile
+  # Optional dependencies
+  # https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#optional-dependencies
+  - PyTables
+  - SciPy
+  - blosc
+  - fastparquet
+  - numba
+  - pyarrow==9.0.0
+  - pytables
+  - zlib
+
+  # Step: Hugging Face Diffusion Models Course
+  - diffusers
+  - datasets
+  - transformers
+  - accelerate
+  - ftfy
+
+  # Step: Dependencies only available throw PyPI (pip)
+  - pip:
+      # I faced that when this file has multiple PIP sections, only the last section is installed.
+      # Part: OpenCV
+      # Official packages https://pypi.org/project/opencv-python/
+      - opencv-python-headless
+      #- opencv-contrib-python-headless
