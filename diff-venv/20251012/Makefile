@@ -7,9 +7,10 @@ create_venv:
 remove_venv:
 	mamba env remove -n "$(ENV_NAME)"
 
-clean_folder:
+remove_dir:
 	rm -rf ~/Dev/mambaforge/envs/"$(ENV_NAME)"/
 
 export_venv:
 	mamba env export -n "$(ENV_NAME)" > "$(FILE_NAME)"___result.yml
 	pip freeze > "$(FILE_NAME)"___result.txt
+	mamba run -n "$(ENV_NAME)" python --version > python_version.txt
